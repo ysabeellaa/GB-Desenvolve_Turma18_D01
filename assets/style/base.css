@@ -1,16 +1,25 @@
 :root {
     --branco: #FFFFFF;
+    --preto: #000000;
 
-    --destaque: hsl(180, 66%, 49%);
-    --secudario: hsl(257, 27%, 26%);
+    --btn-icone: #2bd0d0;
+    --fundo-icone: #3b3054;
+    --linha: #2acfcf;
+    --encurtador-claro: #4b3f6b;
+    --encurtador-escuro: #3b3054;
 
-    --erro: hsl(0, 87%, 67%);
+    --sucesso: #30c59b;
+    --erro: #f94144;
 
-    --texto: hsl(257, 7%, 63%);
-    --titulo: hsl(255, 11%, 22%);
+    --texto: #9e9aa7;
+    --titulo-claro: #FFFFFF;
+    --titulo-escuro: #34313D;
 
-    --background: hsl(0, 0%, 75%);
-    --background-footer: hsl(260, 8%, 14%);
+    --background-claro: #FFFFFF;
+    --background-medio: #f0f1f6;
+    --background-footer: #232127;
+
+    --font: 'Poppins', sans-serif;
 }
 
 html {
@@ -22,4 +31,9 @@ html {
     box-sizing: border-box;
     list-style: none;
     text-decoration: none;
+    color:#000000;
+}
+
+body {
+    background-color: gray;
 }
