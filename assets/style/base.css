@@ -1,13 +1,16 @@
 :root {
-    --cyan: hsl(180, 66%, 49%);
-    --dark-violet: hsl(257, 27%, 26%);
+    --branco: #FFFFFF;
 
-    --red: hsl(0, 87%, 67%);
+    --destaque: hsl(180, 66%, 49%);
+    --secudario: hsl(257, 27%, 26%);
 
-    --gray: hsl(0, 0%, 75%);
-    --grayish-violet: hsl(257, 7%, 63%);
-    --very-dark-blue: hsl(255, 11%, 22%);
-    --very-dark-violet: hsl(260, 8%, 14%);
+    --erro: hsl(0, 87%, 67%);
+
+    --texto: hsl(257, 7%, 63%);
+    --titulo: hsl(255, 11%, 22%);
+
+    --background: hsl(0, 0%, 75%);
+    --background-footer: hsl(260, 8%, 14%);
 }
 
 html {
@@ -17,4 +20,6 @@ html {
 
 * {
     box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
 }
