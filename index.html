@@ -11,24 +11,35 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap"
         rel="stylesheet">
+    <link href="./assets/style/reset.css" rel="stylesheet">
     <link href="./assets/style/base.css" rel="stylesheet">
-    <link href="./assets/style/style.css" rel="stylesheet">
+    <link href="./assets/style/header/header.css" rel="stylesheet">
+    <link href="./assets/style/header/header-btnMenu.css" rel="stylesheet">
+    <link href="./assets/style/header/header-container.css" rel="stylesheet">
+    <link href="./assets/style/menu/menu.css" rel="stylesheet">
+    <link href="./assets/style/menu/menu-lista.css" rel="stylesheet">
+    <link href="./assets/style/menu/menu-item.css" rel="stylesheet">
+    <link href="./assets/style/menu/menu-link.css" rel="stylesheet">
 </head>
 
 <body>
     <header class="header">
-        <nav class="menu">
-            <a class="logo__img--preto" href="#"><img src="./assets/images/logo-preto.svg"></a>
-            <ul class="menu__lista menu__lista--nav">
-                <li class="menu__item"><a href="#" class="menu__link">Características</a></li>
-                <li class="menu__item"><a href="#" class="menu__link">Preços</a></li>
-                <li class="menu__item"><a href="#" class="menu__link">Recursos</a></li>
-            </ul>
-            <ul class="menu__lista menu__lista--login">
-                <li class="menu__item"><a href="#" class="menu__link">Conecte-se</a></li>
-                <li class="menu__item"><a href="#" class="menu__link">Inscreva-se</a></li>
-            </ul>
-        </nav>
+        <div class="header__container container">
+            <a class="header__logo" href="#"><img src="./assets/images/logo-preto.svg"></a>
+            <nav class="menu">
+                <ul class="menu__lista menu__lista--nav">
+                    <li class="menu__item"><a href="#" class="menu__link">Características</a></li>
+                    <li class="menu__item"><a href="#" class="menu__link">Preços</a></li>
+                    <li class="menu__item"><a href="#" class="menu__link">Recursos</a></li>
+                </ul>
+                <ul class="menu__lista menu__lista--login">
+                    <li class="menu__item"><a href="#" class="menu__link">Conecte-se</a></li>
+                    <li class="menu__item"><a href="#" class="menu__link menu__link--cadastro">Inscreva-se</a>
+                    </li>
+                </ul>
+            </nav>
+            <img src="./assets/images/hamburguer.svg" class="header__btnMenu"></img>
+        </div>
     </header>
     <main>
         <section class="iniciar">

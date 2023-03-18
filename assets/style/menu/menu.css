@@ -1,0 +1,20 @@
+.menu {
+    background: var(--background-hamburguer);
+    border-radius: 10px;
+    height: 0;
+    left: 0;
+    margin: 0 1rem;
+    overflow-y: hidden;
+    padding: 0 1rem;
+    position: absolute;
+    transition: .3s;
+    top: 72px;
+    visibility: hidden;
+    width: calc(100vw - 2rem);
+}
+
+.menu--ativo {
+    height: 379px;
+    overflow-y: auto;
+    visibility: visible;
+}

@@ -1,0 +1,8 @@
+.menu__item {
+    display: flex;
+    /* padding-bottom: 1rem; */
+}
+
+.menu__item:last-child {
+    padding-bottom: 1rem;
+}

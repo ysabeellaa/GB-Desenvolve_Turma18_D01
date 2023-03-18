@@ -1,0 +1,6 @@
+.header__container {
+    align-items: flex-start;
+    background: var(--background-claro);
+    height: 72px;
+    justify-content: space-between;
+}

@@ -1,0 +1,9 @@
+.menu__lista {
+    display: flex;
+    flex-direction: column;
+    padding-top: 1rem;
+}
+
+.menu__lista--nav {
+    border-bottom: 1px solid var(--encurtador-claro);
+}
