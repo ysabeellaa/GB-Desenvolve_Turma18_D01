@@ -15,6 +15,7 @@
     --titulo-claro: #FFFFFF;
     --titulo-escuro: #34313D;
 
+    --background-hamburguer: #3b3054;
     --background-claro: #FFFFFF;
     --background-medio: #f0f1f6;
     --background-footer: #232127;
@@ -23,7 +24,7 @@
 }
 
 html {
-    font-family: 'Poppins', sans-serif;
+    font-family: var(--font);
     font-size: 18px;
 }
 
@@ -31,9 +32,16 @@ html {
     box-sizing: border-box;
     list-style: none;
     text-decoration: none;
-    color:#000000;
+    color: var(--titulo-escuro);
 }
 
 body {
-    background-color: gray;
+    background-color: var(--background-claro);
+}
+
+.container {
+    display: flex;
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 1rem;
 }
