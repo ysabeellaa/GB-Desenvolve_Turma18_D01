@@ -7,3 +7,17 @@
 .menu__lista--nav {
     border-bottom: 1px solid var(--encurtador-claro);
 }
+
+@media screen and (min-width: 992px) {
+    .menu__lista {
+        align-items: center;
+        flex-direction: row;
+        padding: 0;
+        height: auto;
+    }
+
+    .menu__lista--nav {
+        border-bottom: none;
+        flex-grow: 1;
+    }
+}

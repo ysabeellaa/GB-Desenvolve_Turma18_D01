@@ -1,5 +1,12 @@
 .header {
+    background: var(--background-claro);
     height: 72px;
     position: sticky;
     top: 0;
+}
+
+@media screen and (min-width: 992px) {
+    .header {
+        height: 138px;
+    }
 }

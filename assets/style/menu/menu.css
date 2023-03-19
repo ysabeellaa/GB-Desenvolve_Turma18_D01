@@ -18,3 +18,19 @@
     overflow-y: auto;
     visibility: visible;
 }
+
+@media screen and (min-width: 992px) {
+    .menu {
+        align-items: center;
+        display: flex;
+        background: var(--branco);
+        border-radius: 0;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        position: relative;
+        top: 0;
+        visibility: visible;
+        width: 100%;
+    }
+}

@@ -1,8 +1,13 @@
 .menu__item {
     display: flex;
-    /* padding-bottom: 1rem; */
 }
 
 .menu__item:last-child {
     padding-bottom: 1rem;
+}
+
+@media screen and (min-width: 992px) {
+    .menu__item:last-child {
+        padding-bottom: 0;
+    }
 }
