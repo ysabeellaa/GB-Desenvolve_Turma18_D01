@@ -1,0 +1,13 @@
+.header__container {
+    align-items: flex-start;
+    height: 72px;
+    justify-content: space-between;
+}
+
+@media screen and (min-width: 992px) {
+    .header__container {
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+    }
+}

@@ -1,0 +1,36 @@
+.menu {
+    background: var(--background-hamburguer);
+    border-radius: 10px;
+    height: 0;
+    left: 0;
+    margin: 0 1rem;
+    overflow-y: hidden;
+    padding: 0 1rem;
+    position: absolute;
+    transition: .3s;
+    top: 72px;
+    visibility: hidden;
+    width: calc(100vw - 2rem);
+}
+
+.menu--ativo {
+    height: 379px;
+    overflow-y: auto;
+    visibility: visible;
+}
+
+@media screen and (min-width: 992px) {
+    .menu {
+        align-items: center;
+        display: flex;
+        background: var(--branco);
+        border-radius: 0;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        position: relative;
+        top: 0;
+        visibility: visible;
+        width: 100%;
+    }
+}

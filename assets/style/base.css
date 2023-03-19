@@ -1,0 +1,47 @@
+:root {
+    --branco: #FFFFFF;
+    --preto: #000000;
+
+    --btn-icone: #2bd0d0;
+    --fundo-icone: #3b3054;
+    --linha: #2acfcf;
+    --encurtador-claro: #4b3f6b;
+    --encurtador-escuro: #3b3054;
+
+    --sucesso: #30c59b;
+    --erro: #f94144;
+
+    --texto: #9e9aa7;
+    --titulo-claro: #FFFFFF;
+    --titulo-escuro: #34313D;
+
+    --background-hamburguer: #3b3054;
+    --background-claro: #FFFFFF;
+    --background-medio: #f0f1f6;
+    --background-footer: #232127;
+
+    --font: 'Poppins', sans-serif;
+}
+
+html {
+    font-family: var(--font);
+    font-size: 18px;
+}
+
+* {
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    color: var(--titulo-escuro);
+}
+
+body {
+    background-color: var(--background-claro);
+}
+
+.container {
+    display: flex;
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 1rem;
+}

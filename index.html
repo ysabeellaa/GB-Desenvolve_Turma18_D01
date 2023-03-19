@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encurtador de URL</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link href="./assets/style/reset.css" rel="stylesheet">
+    <link href="./assets/style/base.css" rel="stylesheet">
+    <link href="./assets/style/header/header.css" rel="stylesheet">
+    <link href="./assets/style/header/header-btnMenu.css" rel="stylesheet">
+    <link href="./assets/style/header/header-container.css" rel="stylesheet">
+    <link href="./assets/style/header/header-logo.css" rel="stylesheet">
+    <link href="./assets/style/menu/menu.css" rel="stylesheet">
+    <link href="./assets/style/menu/menu-lista.css" rel="stylesheet">
+    <link href="./assets/style/menu/menu-item.css" rel="stylesheet">
+    <link href="./assets/style/menu/menu-link.css" rel="stylesheet">
+</head>
+
+<body>
+    <header class="header">
+        <div class="header__container container">
+            <a class="header__logo" href="#"><img src="./assets/images/logo-preto.svg"></a>
+            <nav class="menu">
+                <ul class="menu__lista menu__lista--nav">
+                    <li class="menu__item"><a href="#" class="menu__link">Características</a></li>
+                    <li class="menu__item"><a href="#" class="menu__link">Preços</a></li>
+                    <li class="menu__item"><a href="#" class="menu__link">Recursos</a></li>
+                </ul>
+                <ul class="menu__lista menu__lista--login">
+                    <li class="menu__item"><a href="#" class="menu__link">Conecte-se</a></li>
+                    <li class="menu__item"><a href="#" class="menu__link menu__link--cadastro">Inscreva-se</a>
+                    </li>
+                </ul>
+            </nav>
+            <img src="./assets/images/hamburguer.svg" alt="Logo Shortly" class="header__btnMenu"></img>
+        </div>
+    </header>
+    <main>
+        <section class="iniciar">
+            <div class="iniciar__container">
+                <h1 class="iniciar__titulo">Mais do que apenas links mais curtos</h1>
+                <p class="iniciar__descricao">Aumente o reconhecimento de sua marca e obtenha insights detalhados sobre
+                    o desempenho de seus links.</p>
+                <a href="#" class="iniciar__link">Iniciar</a>
+            </div>
+            <div class="iniciar__containerImg">
+                <div class="iniciar__img"></div>
+            </div>
+        </section>
+
+        <section class="encurtador">
+            <div class="encurtador__container">
+                <input type="text" placeholder="Encurte um link aqui" class="encurtador__input">
+                <input type="submit" value="Encurtar" class="encurtador__btnEnviar botao">
+            </div>
+
+            <div class="encurtador__linkContainer">
+                <p class="encurtador__linkCompleto">https://www.modelo.com.br</p>
+                <p class="encurtador__linkCurto">http://rel.ink/encurtado</p>
+                <button class="encurtador__btnCopiar botao">Copy</button>
+            </div>
+        </section>
+
+        <section class="cards">
+            <div class="informacao__container">
+                <h3 class="informacao__titulo"></h3>
+                <p class="informacao__texto"></p>
+            </div>
+
+            <div class="cards__container">
+
+                <!--Fazer linha atrás dos cards com a Pseudo-Elemento ::before-->
+
+                <div class="card">
+                    <img src="./assets/images/icon-brand-recognition.svg" alt="Ícone gráfico">
+                    <h4 class="cards__titulo">Reconhecimento de marca</h4>
+                    <p class="cards__texto">Aumente o reconhecimento da sua marca a cada clique. Links genéricos não
+                        significam nada. Os links de marca ajudam a incutir confiança em seu conteúdo.</p>
+                </div>
+
+                <div class="card">
+                    <img src="./assets/images/icon-detailed-records.svg" alt="Ícone velocímetro">
+                    <h4 class="cards__titulo">Registros Detalhados</h4>
+                    <p class="cards__texto">Obtenha informações sobre quem está clicando em seus links. Saber quando e
+                        onde as pessoas interagem com seu conteúdo ajuda a tomar melhores decisões.</p>
+                </div>
+
+                <div class="card">
+                    <img src="./assets/images/icon-fully-customizable.svg" alt="Ícone caneta, pincel e marca texto">
+                    <h4 class="cards__titulo--preto">Totalmente personalizável</h4>
+                    <p class="cards__texto">Melhore o conhecimento da marca e a descoberta de conteúdo por meio de links
+                        personalizáveis, potencializando o envolvimento do público.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="secao__btn">
+            <h3 class="secao__titulo--branco">Aumente seus links hoje</h3>
+            <button class="secao__btnIniciar botao" type="button">Iniciar</button>
+        </section>
+    </main>
+    <footer>
+        <div class="logo__container">
+            <a class="logo__img--branco" href="#"><img src="./assets/images/logo-white.svg"></a>
+        </div>
+
+        <div class="rodape__links">
+            <div class="links__caracteristicas">
+                <h4 class="link__titulo--branco">Características</h4>
+                <ul class="conjunto__links">
+                    <li class="rodape__link">Encurtador de links</li>
+                    <li class="rodape__link">Links de marca</li>
+                    <li class="rodape__link">Análise</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="rodape__links">
+            <div class="links__recursos">
+                <h4 class="link__titulo--branco">Recursos</h4>
+                <ul class="conjunto__links">
+                    <li class="rodape__link">Blog</li>
+                    <li class="rodape__link">Desenvolvedores</li>
+                    <li class="rodape__link">Apoiar</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="rodape__links">
+            <div class="links__empresa">
+                <h4 class="link__titulo--branco">Empresa</h4>
+                <ul class="conjunto__links">
+                    <li class="rodape__link">Sobre</li>
+                    <li class="rodape__link">Nosso time</li>
+                    <li class="rodape__link">Carreiras</li>
+                    <li class="rodape__link">Contato</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="social__midias">
+            <a href="#"><img src="./assets/images/icon-facebook.svg" alt="Logo Facebook"></a>
+            <a href="#"><img src="./assets/images/icon-twitter.svg" alt="Logo Twitter"></a>
+            <a href="#"><img src="./assets/images/icon-pinterest.svg" alt="Logo Pinterest"></a>
+            <a href="#"><img src="./assets/images/icon-instagram.svg" alt="Logo Instagram"></a>
+        </div>
+
+        <div class="desenvolvedores__container">
+            <h4 class="desenvolvedores__titulo--branco">Desenvolvido por:</h4>
+            <ul class="conjunto__links">
+                <li><a class="desenvolvedor__link" href="#"></a>Ysabella</li>
+                <li><a class="desenvolvedor__link" href="#"></a>Gabriella</li>
+                <li><a class="desenvolvedor__link" href="#"></a>Vinicius</li>
+                <li><a class="desenvolvedor__link" href="#"></a>Fernando</li>
+                <li><a class="desenvolvedor__link" href="#"></a>Gustavo</li>
+                <li><a class="desenvolvedor__link" href="#"></a>Charles</li>
+            </ul>
+        </div>
+    </footer>
+</body>
+
+</html>
